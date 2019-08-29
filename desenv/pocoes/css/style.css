@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    min-height: 500px;
+    position: relative;
+}
+
+.baixo{
+    display: flex;
+}
+
+.topo ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+}
+
+.logo{
+    flex: 1;
+}
+
+#busca{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    margin: 30px;
+}
+
+#txtBusca{
+    float: right;
+    background-color: transparent;
+    padding-right: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+}
+
+.logo img{
+    padding-left: 20px;
+}
+
+.menu{
+    flex: 1;
+    background-color: purple;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+}
+
+.menu li{
+    min-width: 100px;
+    line-height: 28px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#btnBusca{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+}
+
+#busca button{
+    width: 30px;
+    height: 31px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    padding-top: 5px;
+}
+
+#shipping{
+    color: orange;
+}
