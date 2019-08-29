@@ -3,3 +3,9 @@ https://github.com/rafamazzucato/impacta-react-js
 node ./node_modules/nodemon/bin/nodemon.js
 
 npx create-react-app "nome do projeto"
+
+git add .
+
+git commit "mensagem"
+
+git push
